@@ -30,6 +30,7 @@ a,
     font-size: 18px;
     color: #e5ebe5;
     text-decoration: none;
+    min-width: 480px;
 }
 .logo,
 .text,
@@ -73,7 +74,8 @@ ul {
 }
 .mian-head{
     display: flex;
-    flex-direction: ; 
+   
+    max-width: 600px;
 }
 .small-conteiner {
     display: flex;
@@ -83,10 +85,8 @@ ul {
 button > img {
     color: white;
 }
-.grye {
-    background-color: grey;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 00px;
-    padding-bottom: 0px;
+.imgt{
+max-width: 100%;
+height: auto;
+
 }
