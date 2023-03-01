@@ -13,8 +13,8 @@ body {
 }
 .header {
     padding-top: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 100px;
 
 }
@@ -22,6 +22,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: -15px;
 }
 .subtxt,
 a,
@@ -55,18 +56,37 @@ h3 {
 }
 .action-part,
 button {
-    background-color: #3882f6;  
+    background-color: #3882f6; 
+     border-radius: 10px;
+     padding: 5px 50px;
 }
 
 .cointeiner {
     display: flex;
     justify-content: space-between;
-   
-    
-   
+    margin-bottom: 100px;
+  
 }
 ul {
     display: flex;
     gap: 40px;
-   
+}
+.mian-head{
+    display: flex;
+    flex-direction: ; 
+}
+.small-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+button > img {
+    color: white;
+}
+.grye {
+    background-color: grey;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 00px;
+    padding-bottom: 0px;
 }
