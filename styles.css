@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 .header,
@@ -12,12 +13,13 @@ body {
    
 }
 .header {
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px 100px 200px;
+    
 }
+
+
 h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -55,17 +57,14 @@ h3 {
     font-weight: 100;
     color: #1f2937;
 }
-.action-part,
-button {
-    background-color: #3882f6; 
-     border-radius: 10px;
-     padding: 5px 50px;
-}
+
 
 .cointeiner {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    outline: 2px solid red;
+
   
 }
 ul {
@@ -74,7 +73,8 @@ ul {
 }
 .mian-head{
     display: flex;
-   
+    justify-content: space-between;
+    align-items: center;
     max-width: 600px;
 }
 .small-conteiner {
@@ -86,7 +86,75 @@ button > img {
     color: white;
 }
 .imgt{
-max-width: 100%;
+min-width: 150%;
 height: auto;
 
+}
+.main {
+display: flex;
+outline: 2px solid red;
+flex-direction: column;
+}
+.information-part {
+display: flex;
+padding: 400px;
+justify-content: space-between;
+}
+
+.quote-part {
+display: flex;
+flex-direction: column;
+padding: 200px 700px 200px 700px;
+justify-content: center;
+align-items: center;
+min-width: 400px;
+}
+.quote {
+    margin-left: 900px;
+}
+.padding {
+    padding: 2000px
+    background-color: white;
+}
+.action-part {
+margin-top: 100px;
+margin-left: 400px;
+margin-right: 400px;
+margin-bottom: 100px;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 40px;
+padding-bottom: 40px;
+display: flex;
+justify-content: space-between;
+
+
+gap: 100px
+}
+.but {
+    display: flex;
+    
+  
+}
+.action-part,
+button {
+    background-color: #3882f6; 
+     border-radius: 10px;
+     padding: -5px -50px;
+}
+.button {
+    padding: 0px 200px;
+}
+.textp {
+    margin-top: 4px;
+    font-size: 18px;
+    color: #e5ebe5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
