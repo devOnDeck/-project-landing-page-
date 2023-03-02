@@ -36,9 +36,12 @@ a,
 }
 .logo,
 .text,
-.button {
+button {
     font-size: 24px;
     color: #f9faf8;
+}
+.button-main{
+    padding: 10px 50px;
 }
 ul {
     margin: 0;
@@ -63,7 +66,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-    outline: 2px solid red;
+ 
 
   
 }
@@ -82,9 +85,7 @@ ul {
     flex-wrap: wrap;
     padding-right: 100px;
 }
-button > img {
-    color: white;
-}
+
 .imgt{
 min-width: 150%;
 height: auto;
@@ -92,13 +93,34 @@ height: auto;
 }
 .main {
 display: flex;
-outline: 2px solid red;
+
 flex-direction: column;
 }
 .information-part {
-display: flex;
-padding: 400px;
-justify-content: space-between;
+max-height: 200px;
+padding: 200px 400px 600px 400px ;
+gap: 20px;
+outline: 2px solid red;
+}
+
+.img-cointeiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;    
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 2em;
+    text-align: center;  
+    margin: 0.5em 1em 1.5em 1em;
+}
+.img-with-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+
 }
 
 .quote-part {
@@ -108,6 +130,8 @@ padding: 200px 700px 200px 700px;
 justify-content: center;
 align-items: center;
 min-width: 400px;
+outline: 2px solid red;
+padding: ;
 }
 .quote {
     margin-left: 900px;
@@ -115,6 +139,8 @@ min-width: 400px;
 .padding {
     padding: 2000px
     background-color: white;
+    flex-shrink: 0;
+
 }
 .action-part {
 margin-top: 100px;
@@ -127,14 +153,13 @@ padding-top: 40px;
 padding-bottom: 40px;
 display: flex;
 justify-content: space-between;
-
-
-gap: 100px
+min-width: 500px;
+flex-wrap: wrap;
+gap: 10px
 }
 .but {
     display: flex;
-    
-  
+    flex-shrink: 0;
 }
 .action-part,
 button {
@@ -144,11 +169,14 @@ button {
 }
 .button {
     padding: 0px 200px;
+  
 }
 .textp {
     margin-top: 4px;
     font-size: 18px;
     color: #e5ebe5;
+
+    
 }
 
 .footer {
@@ -157,4 +185,9 @@ button {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.txt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
